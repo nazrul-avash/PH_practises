@@ -7,17 +7,18 @@ body{
 }
 #hero-container{
     max-width: 1200px;
-    margin: 20px;
     background-color: white;
+    margin: 10px auto;
 }
 .nav-var {
     display: flex;
     background-color: orange;
-    align-items: center;
+    padding: 15px 15px;
     justify-content: space-between;
+    
 }
 .nav-var ul{
-    padding-top: 40px;
+    
     display: flex;
     list-style: none;
     gap: 20px;
@@ -26,12 +27,52 @@ body{
     max-width: 80px;
     
 }
+
 .nav-var a{
     display: flex; 
     align-items: center;
-    gap:0px;
+   
 }
 .nav-var ul li a{
     display: flex;
     align-items: center;
+}
+.nav-var ul li {
+    display: flex;
+    align-items: center;
+}
+.nav-var ul li img {
+    width: 20px;;
+}
+button{
+    padding: 0px 10px;
+    background-color: orange;
+    margin: 0px;
+    line-height: 1;
+    border-radius: 50px;
+  
+}
+.media-links img{
+    max-width: 40px;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px;
+    
+}
+.hero-image img{
+  
+    padding-left: 100px;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    display: block;  
+     
+}
+.hero-content div{
+    border: 1px solid black;
+    flex: 1; 
 }
