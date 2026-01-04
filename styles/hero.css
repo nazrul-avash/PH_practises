@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(115, 161, 201);
+}
+#hero-container{
+    max-width: 1200px;
+    margin: 20px;
+    background-color: white;
+}
+.nav-var {
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-var ul{
+    padding-top: 40px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-var img{
+    max-width: 80px;
+    
+}
+.nav-var a{
+    display: flex; 
+    align-items: center;
+    gap:0px;
+}
+.nav-var ul li a{
+    display: flex;
+    align-items: center;
+}
