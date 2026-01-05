@@ -52,27 +52,70 @@ button{
     border-radius: 50px;
   
 }
-.media-links img{
-    max-width: 40px;
-}
+
 .hero-content{
     display: flex;
-    justify-content: space-between;
-    align-items: right;
+    gap: 20px;
+    border: 2px solid black;
     padding: 20px;
     
 }
-.hero-image img{
-  
-    padding-left: 100px;
-    object-fit: cover;
-    height: 300px;
+
+.hero-child{
+    border: 1px solid rgb(223, 61, 61);
+    flex: 1 1 0;
+
+   
+}
+.avatar{
+    border-radius: 50%;
     width: 300px;
-    border-radius: 50%; 
-    display: block;  
+    height: 300px;
+    
+    overflow: hidden;  
+}
+.avatar img{
+    
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: 90% 30%; 
+    justify-content: flex-end;
+    
      
 }
-.hero-content div{
-    border: 1px solid black;
-    flex: 1; 
+.hero-child:first-child{
+    justify-items: flex-start;
+}
+.hero-child:last-child{
+    justify-items: flex-end;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.media-links{
+    display: flex;
+    gap: 15px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.media-links img{
+    margin-top: 30px;
+    width: 30px;
+    height: auto;
 }
