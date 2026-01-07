@@ -28,6 +28,7 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         aspect-ratio: 1600/808;
+        margin-bottom: 131px;
         
     }
     .banner .banner-content{
@@ -50,29 +51,43 @@ body{
     text-align: right;
     font-weight: regular;
 }
+.banner-content button{
+    margin-bottom: 166px;
+}
 #failures .failures-container{
-    max-width: 1600px;
-    
+    max-width: 1072px;
+    width: 67%;
     display: flex;
+    justify-content: space-between;
     gap:95px;
     margin: 0 auto;
+    
 
 }
-.failures-container .failures-image{
-    padding-top: 344px;
-    max-width: 569px;
-    margin-left: 198px;
-}
+
 .failures-container .failures-content{
-    padding-top: 536px;
-    max-width: 416px;
-    margin-right: 322px;
+    
+    max-width: 316px;
+    
 }
-.img-wrapper{
-    max-width: 528px;
-    max-width: 528px;
-    color:#F15B22;
-    border-radius: 50%;
-    display: flex;
-    border: 2px beige;
+.failures-image-container {
+ 
+  width: 524px;
+  height: 524px;
+  border-radius: 50%;
+  background-color:  rgba(241, 91, 34, 0.2);
+  position: relative;
+
+}
+.failures-image-container img{
+    position: absolute;
+    width: 560px;
+    top:-190px;
+    left: -20px;
+    height: auto;
+    object-fit: contain;
+    overflow: visible;
+    
+    
+    
 }
