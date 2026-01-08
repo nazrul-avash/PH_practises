@@ -1,35 +1,4 @@
- <section id="plans">
-        <div class="plan-banner"> /* এই container এর হাইট কিভাবে নির্ধারণ করবো? এই হাইটের উপর */
-            <img src="Images/M1M5_practise/watch.png">
-            <div class="banner-gradient"></div>
-            <div class="plan-banner-content">
-                <h3>Awlays keep a positive mindset</h3>
-                <button class="btn">Call me</button>
-            </div>
-</section>
-
----------------------------------------------------------------------------------
-
-#plans .plan-banner{
-    margin: 0 auto;
-    max-width: 1140px;
-    width: 71%;
-    position: relative;
-    height: 301px; 
-}
-#plans .plan-banner img{
-    position: absolute;
-    z-index: 1;    
-}
-     
-#plans .plan-banner .banner-gradient{
-     position: absolute;
-    background-image: url("../Images/M1M5_practise/gradient2.png");
-    opacity: 1; 
-    z-index: 2;
-    width: 100%;
-    height: 100%;         
-}
-
-
-----------------------------------------------------------------------------------------------------
+Figma থেকে যখন বিভিন্ন সাইজের মাপ নিচ্ছি সে হিসাবে ব্রাউজারের ৮০% জুমে (বা মনিটরের উপর নির্ভর) ঠিকঠাক দেখায়। কিন্তু ১০০% বা বেশী করে ফেললে Layout Break করে। আমাকে দুইটা ভিন্ন সাইজের মনিটরে কাজ করতে হয়। এই বিষয়টা ক্লিয়ার হতে চাচ্ছি। তা নাহলে এসাইনমেন্টে ০ (শুন্য) পেয়ে বসবো।
+আমার প্রশ্ন হচ্ছেঃ
+১। ফিগমাতে ১৬০০ থাকলে আমি ব্রাউজারে কত পার্সেন্টে আউটপুট টেস্ট করবো?
+২। এসাইনমেন্টে সেটা কি হিসেবে থাকবে? এসাইনমেন্টে কি মেজারমেন্ট গুলা চেক করবে কিনা বা যে মনিটরে দেখা হবে সেটার কত পার্সেন্টে দেখা হবে?
