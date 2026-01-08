@@ -119,5 +119,29 @@ body{
     margin-bottom: 189px;
 }
 #plans .plan-banner{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 71%;
+    position: relative;
     
+    
+   
+}
+#plans .plan-banner img{
+    position: absolute;
+    z-index: 2;
+}
+     
+#plans .plan-banner .banner-gradient{
+     position: absolute;
+    background-image: url("Images/M1M5_practise/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;          
+}
+
+#plans .plan-banner .plan-banner-content{
+    position: relative;
+    z-index: 3;
 }
