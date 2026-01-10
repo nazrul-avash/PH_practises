@@ -21,14 +21,14 @@ body{
     border-radius: 5px;
 
 }
-    .banner{
+ .banner{
         width: 100%;
         height: auto;
         background-image: url('/Images/M1M5_practise/banner/banner1.png');
         background-size: cover;
         background-repeat: no-repeat;
         aspect-ratio: 1600/808;
-        margin-bottom: 131px;
+        margin-bottom: 260px;
         
     }
     .banner .banner-content{
@@ -55,25 +55,39 @@ body{
     margin-bottom: 166px;
 }
 #failures .failures-container{
-    max-width: 1072px;
-    width: 67%;
+    max-width: 1317px;
+    width: 83%;
     display: flex;
+    gap:332x;   
+    margin: 0 141px 0px 142px;
+    /* border: 2px solid red; */
     justify-content: space-between;
-    gap:95px;
-    margin: 0 auto;
     
-
 }
 
-.failures-container .failures-content{
+.failures-container .failures-content{ 
+    max-width: 416px;
+    padding-top: 120px;
     
-    max-width: 316px;
-    
+}
+.failures-container .failures-content h3{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.failures-container .failures-content p{
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.failures-container .failures-content ul li{
+    list-style: none;
+
 }
 .failures-image-container {
  
-  width: 524px;
-  height: 524px;
+  width: 528px;
+  height: 528px;
   border-radius: 50%;
   background-color:  rgba(241, 91, 34, 0.2);
   position: relative;
@@ -81,13 +95,94 @@ body{
 }
 .failures-image-container img{
     position: absolute;
-    width: 560px;
-    top:-190px;
-    left: -20px;
+    width: 569px;
+    top:-193px;
+    left: -22px;
+   
     height: auto;
     object-fit: contain;
-    overflow: visible;
+}
+#plans h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#plans .plan-list{
+    display: flex;
+    max-width: 1141px;
+    width: 71%;
+    gap:86px;
+    justify-content: space-between;
+    margin:0 auto;
+    margin-bottom: 189px;
+}
+#plans .plan-banner{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 71%;
+    position: relative;
+    height: 301px; 
     
+}
+ #plans .plan-banner img{
+    position: absolute;
+    z-index: 1;    
+} 
+     
+#plans .plan-banner .banner-gradient{
+    position: absolute; 
+    background-image: url("../Images/M1M5_practise/gradient2.png");
+    opacity: .50; 
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+          
+}
+
+#plans .plan-banner .plan-banner-content{
+    position: relative;
+    z-index: 3;
+    padding: 56px 0 0 64px;
+
+}
+
+#plans .plan-banner .plan-banner-content button{
+    background-color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+
+}
+#plans{
+    margin-bottom: 127px;
+
+}
+footer{
+    padding-top: 130px ;
+    background-color: #000000;
+    display: flex;
+    gap:331px;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 230px;
     
-    
+}
+.future{
+    max-width: 485px;
+}
+.future h3{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+}
+.future p{
+    color: #F8F8F8;
+    font-size: 16px;
+    line-height: 26px;
+
 }
