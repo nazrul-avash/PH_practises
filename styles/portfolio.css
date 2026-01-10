@@ -9,6 +9,10 @@
   font-optical-sizing: auto;
   
 }
+button:hover{
+  color: #FFF8F3;
+  
+}
 .btn{
   background-color: #FD6E0A;
   border: none;
