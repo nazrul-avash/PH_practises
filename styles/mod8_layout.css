@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(5, minmax(50px, 200px));
+    gap: 20px;
+}
+.box{
+    border: 2px dashed red;
+    background-color: green;
+    
+    
+}
+.row_span{
+    grid-row: span 5;
+    background-color: grey;
+}
+.col-span{
+    grid-column: 2/5;
+    background-color: red;
+    
+}
