@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --font-size: 16px;
+        }
+        .blog{
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            height:300px;
+            width: 200px;
+            background-color: var(--primary-color)
+            
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            transform: scale(.75) rotate(45deg) ;
+            transition: transform 0.5s linear;
+        }
+        .box:hover{
+            background-color: yellow;
+            
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="blog">
+        <div class="box">
+
+        </div>
+       
+    </div>
+    <div class="blog">
+        <h1>My First Blog Post</h1>
+        <div class="box">
+
+        </div>
+        
+    </div>
+</body>
+</html>

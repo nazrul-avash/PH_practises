@@ -1,0 +1,48 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    border: 2px solid rgb(24, 91, 155);
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+   
+    
+    
+    
+}
+footer>img{
+    vertical-align: middle;
+}
+.footer-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 3px solid red;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+   
+}
+.footer-content img{
+    
+}
+
+@media screen and (max-width:576px){
+    footer>img{
+        width: 100%;
+}
+.footer-content img{
+    
+    
+}
+}
