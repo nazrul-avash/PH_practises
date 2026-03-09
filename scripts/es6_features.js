@@ -81,5 +81,36 @@ function birthdayCakeCandles(candles) {
 
 }
 
-const  arr = [1,2,3,4,5];
-miniMaxSum(arr);
+function timeConversion(s) {
+    // Write your code here
+    const hour = parseInt(s.slice(0,2));
+    const mode = s.endsWith("AM")?"AM":"PM";
+    if (mode === "AM"){
+        if (hour === 12){
+            return "00"+s.slice(2,8);
+        }
+        else{
+            return s.slice(0,8);
+        }
+
+}
+else if (mode === "PM"){
+    if (hour === 12){
+        return s.slice(0,8);
+    }
+    else{
+        return (hour + 12).toString() + s.slice(2,8);
+    }
+}
+}
+
+function gradingStudents(grades) {
+    // Write your code here
+    for (const grade in grades){
+        if (grade < 38){
+            continue;
+        }
+        else if 
+    }
+
+timeConversion("07:05:45PM");
